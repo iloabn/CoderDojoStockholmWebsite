@@ -29,7 +29,6 @@ En Dojo är alltid gratis och det finns inga krav på att anmäla sig till flera
 1. Vi hänger tillsammans i ca 2 timmar och skapar och löser problem både själva och tillsammans.
 1. Strax innan tolv hjälps vi åt att packa ihop, tackar för idag och skiljs åt.
 
-{%  %}
 ## Tidigare Dojos
 <ul>
 {%- for dojo in collections.previousDojos -%}
@@ -46,7 +45,7 @@ Här kommer några vanliga frågor och svar på dem.
 Vi tycker att CoderDojo Stockholm passa bäst för 7-17. Men det är inga hårda regler, så om ett yngre eller äldre syskon vill hänge med också så är det helt okej.
 
 ### Måste en förälder vara med?
-Under 12 så måste en förälder vara närvarande under hela Dojon. Vid 12 eller äldre så är det helt upp till er själva att bestämma vad som ni tror blir bäst. Vi på CoderDojo tar dock inget extra ansvar förutom att vi alla är snälla människor.
+Under 12 så **måste** en förälder vara närvarande under hela Dojon. Vid 12 eller äldre så är det helt upp till er själva att bestämma vad som ni tror blir bäst. Vi på CoderDojo tar dock inget extra ansvar förutom att vi alla är snälla människor.
 
 ### Jag vill att CoderDojo Stockholm besöker vårt företag!
 Så kul att höra! Det gör vi gärna 😀 Prata gärna med någon av mentorerna på plats eller läs mer **här** om hur det är att ha en Dojo på besök.
