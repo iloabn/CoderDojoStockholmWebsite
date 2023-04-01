@@ -1,0 +1,9 @@
+{
+    "layout": "dojolayout.njk",
+    "tags": [
+        "dojo"
+    ],
+    "eleventyComputed": {
+        "title": "Dojo {{ page.date | betterDate }} | CoderDojo Stockholm"
+    }
+}

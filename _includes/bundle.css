@@ -1,0 +1,11 @@
+html {
+    background-color: #141414;
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li a {
+    text-decoration: underline;
+    color: #FFF;
+    font-size: 1.3rem;
+}
