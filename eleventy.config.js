@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("_includes/bundle.css");
+    eleventyConfig.addPassthroughCopy("_includes/bg.svg");
     
     eleventyConfig.addCollection("upcomingDojos", function(collectionApi) {
         return collectionApi.getFilteredByTag("dojo").filter(function(item) {

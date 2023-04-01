@@ -1,0 +1,19 @@
+<svg version="1.1" width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="toDark" x1="0.7" x2="0.3" y1="0" y2="1">
+        <stop stop-color="#000" offset="40%" />
+        <stop stop-color="#795175" offset="100%" />
+        <!-- <stop stop-color="#744f72" offset="100%" /> -->
+    </linearGradient>
+<path id="funkyPath" stroke="transparent" d="M -300 -300 Q 960 540, 1920 0 L 1920 -300 L -300 -300" fill="url(#toDark)" />
+
+</defs>
+<!-- <use x="300" y="1200" href="#funkyPath" />
+<use x="200" y="1000" href="#funkyPath" /> -->
+<use x="-100" y="800" href="#funkyPath" />
+<use x="0" y="600" href="#funkyPath" />
+<use x="100" y="400" href="#funkyPath" />
+<use x="200" y="200" href="#funkyPath" />
+<use x="300" y="0" href="#funkyPath" />
+<!-- <path stroke="transparent" d="M 0 0 Q 960 540, 1920 0 L 0 0" fill="url(#toDark)" /> -->
+</svg>

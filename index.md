@@ -24,11 +24,12 @@ Här under kan du både se våra kommande Dojos men även lära dig mer om Coder
 En Dojo är alltid gratis och det finns inga krav på att anmäla sig till flera tillfällen eller liknande. Såhär går det till från anmälan tills vi är klara:
 1. Anmäl er till den Dojo du vill gå på.
 1. Om ni har en dator eller surfplatta så får ni gärna ta med er den. Vi har några att låna om ni inte har, men vi har inte tillräckligt för alla.
-1. Dyk upp strax innan 10 så att ni inte missar när vi säger hej.
+1. Dyk upp strax innan 10:00 så att ni inte missar när vi säger hej.
 1. Prata med en mentor och kom tillsammans fram till vad för roligt ni vill prova på idag.
 1. Vi hänger tillsammans i ca 2 timmar och skapar och löser problem både själva och tillsammans.
-1. När klockan är tolv hjälps vi åt att packa ihop, tackar för idag och skiljs åt.
+1. Strax innan tolv hjälps vi åt att packa ihop, tackar för idag och skiljs åt.
 
+{%  %}
 ## Tidigare Dojos
 <ul>
 {%- for dojo in collections.previousDojos -%}
