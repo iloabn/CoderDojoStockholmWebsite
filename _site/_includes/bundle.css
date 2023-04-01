@@ -4,8 +4,11 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-li a {
+li {
+    font-size: 1.3rem;
+}
+
+a {
     text-decoration: underline;
     color: #FFF;
-    font-size: 1.3rem;
 }
