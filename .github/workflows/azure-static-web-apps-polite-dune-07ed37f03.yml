@@ -28,8 +28,10 @@ jobs:
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "_site" # Built app content directory - optional
-      # - run: npm install
-      # - run: npx percy snapshot $
+      - run: npx eleventy
+      - run: npx percy snapshot _site/
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
