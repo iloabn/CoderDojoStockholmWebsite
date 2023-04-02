@@ -28,7 +28,10 @@ jobs:
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "_site" # Built app content directory - optional
-          
+      - run: npx eleventy
+      - run: npx percy snapshot _site/
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
@@ -40,3 +43,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_POLITE_DUNE_07ED37F03 }}
           action: "close"
+
+permissions:
+  contents: read
+  pull-requests: write

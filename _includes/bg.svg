@@ -6,7 +6,8 @@
             <!-- <stop stop-color="#744f72" offset="100%" /> -->
         </linearGradient>
         <linearGradient id="toDojoBrandColor" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
+            <stop stop-color="rgba(101,37,128,0)" offset="0%" />
+            <stop stop-color="rgba(101,37,128,0.253)" offset="50%" />
             <stop stop-color="#642580" offset="100%" />
             <!-- <stop stop-color="#744f72" offset="100%" /> -->
         </linearGradient>
@@ -60,9 +61,10 @@
             <stop stop-color="#bb53b2" offset="100%" />
             <!-- <stop stop-color="#744f72" offset="100%" /> -->
         </linearGradient>
-        <path id="funkyPath" stroke="transparent" d="M -300 -300 Q 960 540, 1920 0 L 1920 -300 L -300 -300" />
+        <path id="funkyPath" stroke="transparent" d="M -300 -300 Q 960 540, 2020 0 L 1920 -300 L -300 -300" />
 
     </defs>
+    <path fill="rgba(237,104,74,0)" stroke="transparent" d="M 0 0 L -400 950 Q 860 1790, 1920 1250 L 1920 0 L -300 -300" />
     <!-- <use x="300" y="1200" href="#funkyPath" />
 <use x="200" y="1000" href="#funkyPath" /> -->
     <use x="-100" y="1250" href="#funkyPath" fill="url(#toDojoBrandColor)" />
