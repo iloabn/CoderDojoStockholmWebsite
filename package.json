@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/iloabn/CoderDojoStockholmWebsite#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@percy/cli": "^1.21.0"
   }
 }
