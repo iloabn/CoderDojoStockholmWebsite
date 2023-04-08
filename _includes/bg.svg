@@ -1,71 +1,12 @@
 <svg version="1.1" width="1920" height="1580" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <linearGradient id="toDarkNeutral" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#aa998b" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
         <linearGradient id="toDojoBrandColor" x1="0.7" x2="0.3" y1="0" y2="1">
             <stop stop-color="rgba(101,37,128,0)" offset="20%" />
             <stop stop-color="#642580" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark0" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#bb8253" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark1" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#bb8553" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark2" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#b4bb53" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark3" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#8abb53" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark4" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#53bb6a" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark5" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#53bbad" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark6" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#5383bb" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark7" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#6653bb" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark8" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#7b53bb" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
-        </linearGradient>
-        <linearGradient id="toDark9" x1="0.7" x2="0.3" y1="0" y2="1">
-            <stop stop-color="#000" offset="50%" />
-            <stop stop-color="#bb53b2" offset="100%" />
-            <!-- <stop stop-color="#744f72" offset="100%" /> -->
         </linearGradient>
         <path id="funkyPath" stroke="transparent" d="M -300 -300 Q 960 540, 2020 0 L 2020 -500 L -300 -500" />
 
     </defs>
-    <!-- <path fill="#ed684a" stroke="transparent" d="M 0 0 L -400 950 Q 860 1790, 2020 1250 L 2020 0 L -300 -300" /> -->
-    <!-- <use x="300" y="1200" href="#funkyPath" />
-<use x="200" y="1000" href="#funkyPath" /> -->
     <use x="-100" y="1250" href="#funkyPath" fill="url(#toDojoBrandColor)" />
     <use x="-50" y="1100" href="#funkyPath" fill="url(#toDojoBrandColor)" />
     <use x="0" y="950" href="#funkyPath" fill="url(#toDojoBrandColor)" />
@@ -76,5 +17,4 @@
     <use x="250" y="200" href="#funkyPath" fill="url(#toDojoBrandColor)" />
     <use x="300" y="50" href="#funkyPath" fill="url(#toDojoBrandColor)" />
     <use x="350" y="-100" href="#funkyPath" fill="url(#toDojoBrandColor)" />
-    <!-- <path stroke="transparent" d="M 0 0 Q 960 540, 1920 0 L 0 0" fill="url(#toDark)" /> -->
 </svg>
