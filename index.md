@@ -1,7 +1,6 @@
 --- 
 layout: baselayout.njk 
-title: CoderDojo Stockholm 
-upcomingDojosToShow: 2 
+title: CoderDojo Stockholm
 eleventyImport: 
     collections: ["dojo"] 
 ---
