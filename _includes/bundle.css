@@ -22,7 +22,7 @@ body {
 }
 
 li, p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 a {
@@ -32,6 +32,6 @@ a {
 
 @media (max-width: 800px) {
     html {
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
 }
