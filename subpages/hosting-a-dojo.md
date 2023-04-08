@@ -1,6 +1,7 @@
 ---
 layout: sublayout.njk 
 permalink: "hosting-a-dojo/index.html"
+title: "Add bjuda in CoderDojo Stockholm"
 ---
 
 # Att bjuda in CoderDojo Stockholm
