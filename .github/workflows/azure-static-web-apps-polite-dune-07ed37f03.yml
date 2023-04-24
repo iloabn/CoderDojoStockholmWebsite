@@ -29,7 +29,7 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "_site" # Built app content directory - optional
       - run: npx eleventy
-      - run: npx percy snapshot _site/ --include '/index.html'
+      - run: npx percy snapshot _site/ --include '/index.html' --enable-javascript false
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
   close_pull_request_job:
