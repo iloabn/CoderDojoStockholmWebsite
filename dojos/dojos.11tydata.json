@@ -4,6 +4,6 @@
         "dojo"
     ],
     "eleventyComputed": {
-        "title": "Dojo {{ page.date | betterDate }} | CoderDojo Stockholm"
+        "title": "Dojo {{ page.fileSlug }} | CoderDojo Stockholm"
     }
 }

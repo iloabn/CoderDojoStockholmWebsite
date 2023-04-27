@@ -2,6 +2,7 @@
 layout: baselayout.njk
 title: "Vi sparar din mejl"
 noindex: true
+eleventyExcludeFromCollections: true
 ---
 
 # Vi sparar din mejl
