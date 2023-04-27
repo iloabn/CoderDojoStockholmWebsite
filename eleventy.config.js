@@ -5,13 +5,13 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection("upcomingDojos", function(collectionApi) {
         return collectionApi.getFilteredByTag("dojo").filter(function(item) {
-            return item.date > Date.now();
+            return new Date(item.fileSlug) > Date.now();
         });
     });
 
     eleventyConfig.addCollection("previousDojos", function(collectionApi) {
         return collectionApi.getFilteredByTag("dojo").filter(function(item) {
-            return item.date < Date.now();
+            return new Date(item.fileSlug) < Date.now();
         });
     });
 

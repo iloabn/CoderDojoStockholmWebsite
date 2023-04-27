@@ -1,6 +1,7 @@
 --- 
 layout: baselayout.njk 
 title: CoderDojo Stockholm
+changefreq: "weekly"
 eleventyImport: 
     collections: ["dojo"] 
 ---
@@ -14,7 +15,7 @@ Här under kan du både se våra kommande Dojos men även lära dig mer om Coder
 <ul>
 {%- for dojo in collections.upcomingDojos -%}
     <li>
-        <a href="{{ dojo.url }}">Dojo {{ dojo.date | betterDate }}</a>
+        <a href="{{ dojo.url }}">Dojo {{ dojo.fileSlug }}</a>
     </li>
 {%- endfor -%}
 </ul>

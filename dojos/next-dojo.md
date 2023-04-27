@@ -1,6 +1,7 @@
 ---
 layout: sublayout.njk
 permalink: "next-dojo/index.html"
+changefreq: "weekly"
 eleventyComputed:
   title: "CoderDojo Stockholm | Vår nästa Dojo"
 ---
@@ -13,6 +14,8 @@ CoderDojo Stockholm är en förening som erbjuder gratis event för barn mellan 
 Alla våra event är gratis och riktar sig till alla. Oavsett om du tidigare provat på programmering eller inte.
 
 Den här sidan visar alltid informationen kring den närmaste Dojon. Observera att vi är på olika platser i närheten eller i Stockholm.
+
+{{ dojo.content }}
 
 <div class="tt-widget">
 <div class="tt-widget-fallback">
