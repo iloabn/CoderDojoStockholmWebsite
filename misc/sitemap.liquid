@@ -7,9 +7,9 @@ eleventyExcludeFromCollections: true
   {% for page in collections.all %}
     <url>
       {% if page.url == "/" %}
-        <loc>/</loc>
+        <loc>https://coderdojostockholm.se/</loc>
       {% else %}
-        <loc>{{ page.url | url | remove_last: "/" }}</loc>
+        <loc>https://coderdojostockholm.se{{ page.url | url | remove_last: "/" }}</loc>
       {% endif %}
       <lastmod>{{ page.date | betterDate }}</lastmod>
       <changefreq>{{ page.data.changefreq | default: "yearly" }}</changefreq>
