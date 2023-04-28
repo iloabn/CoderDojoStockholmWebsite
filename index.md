@@ -1,6 +1,6 @@
 --- 
 layout: baselayout.njk 
-title: CoderDojo Stockholm
+title: CoderDojo Stockholm | Programmering för unga 7-17
 changefreq: "weekly"
 eleventyImport: 
     collections: ["dojo"] 

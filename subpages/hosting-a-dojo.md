@@ -1,7 +1,7 @@
 ---
 layout: sublayout.njk 
 permalink: "hosting-a-dojo/index.html"
-title: "Add bjuda in CoderDojo Stockholm"
+title: "Add bjuda in CoderDojo Stockholm | Programmering för unga 7-17"
 ---
 
 # Att bjuda in CoderDojo Stockholm

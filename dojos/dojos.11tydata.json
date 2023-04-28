@@ -4,6 +4,6 @@
         "dojo"
     ],
     "eleventyComputed": {
-        "title": "Dojo {{ page.fileSlug }} | CoderDojo Stockholm"
+        "title": "Dojo {{ page.fileSlug }} | CoderDojo Stockholm | Programmering för unga 7-17"
     }
 }
