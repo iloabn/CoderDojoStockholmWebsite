@@ -1,7 +1,7 @@
 ---
 layout: sublayout.njk 
 permalink: "support-dojo/index.html"
-title: "Vill du hjälpa CoderDojo Stockholm?"
+title: "Vill du hjälpa CoderDojo Stockholm? | Programmering för unga 7-17"
 ---
 
 # Vill du hjälpa CoderDojo Stockholm?
