@@ -28,6 +28,9 @@ jobs:
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "_site" # Built app content directory - optional
+      - uses: actions/setup-node@v2
+        with: 
+          node-version: '14'
       - run: npm ci
       - run: npx eleventy
       - run: npx percy snapshot _site/ -c .percy.yml
