@@ -33,6 +33,7 @@ jobs:
     runs-on: windows-latest
     name: Run percy tests
     steps:
+      - uses: actions/checkout@v2
       - run: npm ci
       - run: npx eleventy
       - run: npx percy snapshot _site/ -c .percy.yml
