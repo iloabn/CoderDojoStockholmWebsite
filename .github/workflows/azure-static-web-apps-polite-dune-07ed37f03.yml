@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true
       - name: Build And Deploy
@@ -33,7 +33,7 @@ jobs:
     runs-on: windows-latest
     name: Run percy tests
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: npm ci
       - run: npx eleventy
       - run: npx percy snapshot _site/ -c .percy.yml
