@@ -30,7 +30,7 @@ jobs:
           output_location: "_site" # Built app content directory - optional
       - uses: actions/setup-node@v2
         with: 
-          node-version: '14'
+          node-version: '16'
       - run: npm ci
       - run: npx eleventy
       - run: npx percy snapshot _site/ -c .percy.yml
