@@ -12,7 +12,7 @@ on:
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v2
@@ -31,8 +31,8 @@ jobs:
       - uses: actions/setup-node@v2
         with: 
           node-version: '16'
-      - run: sudo npm ci
-      - run: sudo npx eleventy
+      - run: npm ci
+      - run: npx eleventy
       - run: npx percy snapshot _site/ -c .percy.yml
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
