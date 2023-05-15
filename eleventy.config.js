@@ -4,15 +4,14 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.ignores.add("README.md");
 
     eleventyConfig.addCollection("upcomingDojos", function(collectionApi) {
-        return collectionApi.getFilteredByTag("dojo").filter(function(item) {
+        let filteredCollection = collectionApi.getFilteredByTag("dojo").filter(function(item) {
             return new Date(item.fileSlug) > Date.now();
-        });
-    });
+        })
 
-    eleventyConfig.addCollection("previousDojos", function(collectionApi) {
-        return collectionApi.getFilteredByTag("dojo").filter(function(item) {
-            return new Date(item.fileSlug) < Date.now();
+        filteredCollection.sort((a,b) => {
+            return new Date(a.fileSlug) - new Date(b.fileSlug);
         });
+        return filteredCollection;
     });
 
     eleventyConfig.addFilter("betterDate", function(value) {
