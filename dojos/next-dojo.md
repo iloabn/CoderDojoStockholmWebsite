@@ -7,7 +7,7 @@ eleventyComputed:
 ---
 
 {%- for dojo in collections.upcomingDojos limit:1 -%}
-# Nästa Dojo {{ dojo.date | betterDate }}
+# Nästa Dojo {{ dojo.fileSlug }}
 
 CoderDojo Stockholm är en förening som erbjuder gratis event för barn mellan 7 till 17 för att prova på att programmera i och i närheten utav Stockholm.
 
