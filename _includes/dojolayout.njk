@@ -6,9 +6,11 @@ date: "git Last Modified"
 
 <a href="/">⬅️ Till startsidan</a>
 
-<h1>CoderDojo Stockholm {{ page.fileSlug }}<h2>
+<h1>CoderDojo Stockholm {{ page.fileSlug }}</h1>
 
 {{content | safe}}
+
+{% if ticketUrl %}
 
 <div class="tt-widget">
 <div class="tt-widget-fallback">
@@ -27,3 +29,23 @@ Sälj biljetter online med TicketTailor
 <script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="{{ ticketUrl }}" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="">
 </script>
 </div>
+
+{% else %}
+
+<h2>Lokal sökes!</h2>
+
+<p>Vi söker fortfarande efter en passande lokal för Dojon som sker {{ page.fileSlug }}. Om du tror att du kanske har en lokal tillgänglig och är intresserad så finns mer information på <a href="/hosting-a-dojo">denna</a> sida.</p>
+<p>Du får också gärna tipsa andra om att CoderDojo Stockholm letar lokal. Det hade vari väldigt uppskattat ❤️</p>
+<p>Men sammanfattningsvis så behövs:</p>
+
+<ul>
+<li>🏠 Plats för barn med datorer + lite mentorer</li>
+<li>📡 Ett WiFi som klara ca 100 enheter (vi har lyckats överbelasta företags WiFi tidigare 😝)</li>
+<li>👩‍💻👨‍💻 Två kontakter på företaget som kan öppna lokalen.</li>
+</ul>
+
+<p>Känner du redan nu att du är intresserad så vår du gärna skriva upp dig i formuläret nedan så hör vi av oss för att förhoppningsvis boka en kommande dojo!</p>
+
+<div class="ml-embedded" data-form="J76f0v"></div>
+
+{% endif %}
