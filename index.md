@@ -7,7 +7,7 @@ eleventyImport:
 ---
 
 # ☯️ {{ title }} ☯️
-CoderDojo är en förening som annordnar gratis event (Dojos) där barn 7-17 får prova på att programmera på olika vis.
+CoderDojo är en förening som anordnar gratis event (Dojos) där barn 7-17 får prova på att programmera på olika vis.
 
 Här under kan du både se våra kommande Dojos men även lära dig mer om CoderDojo och hur det fungerar i praktiken. Vi hoppas vi ses!
 
