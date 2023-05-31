@@ -18,4 +18,13 @@ Det finns några rekommendationer på alla lokaler som vi besöker:
 
 Uppfyller ni alla kraven? Härligt! 😀 Då är det bara att anmäla dig nedan så hör vi av oss snart.
 
+Detta är vad som CoderDojo Stockholm hanterar:
+- Vi ser till så att det kommer duktiga mentorer som kan hjälpa till på plats
+- Vi inkluderar gärna och lär ut era anställda om de vill prova på att vara mentorer
+- Vi kommunicerar med vårt nätverk kring Dojon och sprider information (ni är självklart varmt välkomna att göra detsamma)
+- Vi hanterar allt vad gäller registrering och anmälan
+- Vi erbjuder er som lokalsponsor ett visst antal biljetter som inte är öppna för allmänheten
+- Under eventet ser vi till att allt fortlöper på bästa vis
+- Ni får självklart några minuter att introducera ert företag för de barn och föräldrar som är med på plats
+
 <div class="ml-embedded" data-form="J76f0v"></div>
