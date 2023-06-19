@@ -2,6 +2,7 @@
 version: 2
 snapshot:
   enable-javascript: false
+  cli-enable-javascript: false
 static:
   base-url: /
   include: /index.html
